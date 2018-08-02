@@ -1,6 +1,8 @@
-a = float(input("Enter a number: "))
-if a %2== 0:
-      print("even no")
+a = int(input("Enter a number: "))
+if (a%2 == 0):
+      print("even number")
+elif (a%2!=0):
+           print("odd number")
 
 else:
-   print("Negative number")
+     print("invalid ")
